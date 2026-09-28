@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx vitest:*)",
+      "PowerShell(npx vitest run 2>&1 | Select-Object -Last 40)",
+      "PowerShell(npm *)"
+    ]
+  }
+}
